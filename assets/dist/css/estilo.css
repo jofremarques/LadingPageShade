@@ -1,0 +1,172 @@
+body{
+    background-color: #582ADF;
+    color: #DBE4F1;
+    font-family: 'Inter',sans-serif;
+}
+.header{
+    margin: 2% 15% 7%;
+}
+.imglogo{
+    width: 10%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.coluna1{
+    width: 40%;
+    justify-content: center;
+}
+.conteiner1{
+    width: 55%;
+    padding-left: 25%;
+}
+.coluna2{
+    width: 40%;
+    padding-top: 3%;
+    
+}
+.conteiner2{
+    width: 60%;
+    justify-content: center;
+   
+}
+.titulo{
+    font-size: 1.4rem;
+    
+}
+.paragrafo{
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    font-weight: 500;
+}
+.email{
+width: 100%;
+}
+input{
+    width: 95%;
+    height: 3rem;
+}
+input::placeholder{
+    color: #A7B5C5;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.botao{
+    background-color: #EDCB00;
+    width: 97%;
+    margin-top: 3%;
+}
+button{
+    background-color: #EDCB00;
+    width: 100%;
+    border: none;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width:1565px) {
+    .imglogo{
+        margin-top: 5%;
+        width: 15%;
+    }
+
+    .coluna2{
+        width: 50%;
+    }
+}
+@media (max-width:1450px) {
+    .imglogo{
+
+        margin-top: 6%;
+        width: 15%;
+    }
+
+    .conteiner2{
+        width: 80%;
+        padding-top: 5%;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    .coluna2{
+        padding-left: 5%;
+        padding-top: 0%;
+    }
+    h1{
+        margin: 0%;
+    }
+    .conteiner1{
+        width: 100%;
+        padding: 0%;
+        height: 100%;
+    }
+    .coluna1{
+        margin-left: 10%;
+        width: 30%;
+    }
+    .imagem1{
+        width: 100%;
+            }
+}
+
+@media (max-width:769px){
+    .conteiner1{
+        height: 100%;
+        width: 100%;        
+    }
+    .imagem1{
+        height: 100%;
+    }
+    img{
+        height: 100%;
+    }
+    .coluna1{
+        margin: 0% 0% 0% 3%;
+        width: 60%;
+    }
+    .conteiner2{
+        margin: 0%;
+    }
+}
+@media (max-width:550px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .imglogo{
+        width: 50%;
+        margin-top: 8%;
+    }
+    .header{
+        margin: 2% 15% 7% 7%;
+    }
+    .coluna1{
+        width: 100%;
+        margin: 0%;
+    }
+    .coluna2{
+        padding: 0%; 
+        margin: 0%;
+        width: 100%;
+    }
+    h1{
+        margin: 0 auto;
+        padding: 0 auto;
+        font-size: 2rem;
+    }
+    .conteiner2{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .titulo{
+        margin: 8%;
+    }
+    .paragrafo{
+        margin: 8% auto;
+    }
+    .botao{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+}
